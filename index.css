@@ -1,0 +1,174 @@
+header {
+  background: #2E1811;
+  background-image: url('http://labs.jensimmons.com/2016/examples/images/dirt.jpg');
+  background-size: cover;
+  padding: 32px;
+  color: #fff;
+  text-shadow: 0px 1px 6px rgba(0,0,0,0.6);
+}
+
+body {
+  background-color: #1a1919;
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+  font-size: 45px;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+}
+
+h3 {
+  color: white;
+  text-align: left;
+  font-size: 25px;
+}
+
+h4 {
+  color: white;
+  text-align: left;
+  font-size: 25px;
+}
+
+html{
+     scroll-behavior: smooth;;
+   }
+
+p {
+  font-family: Helvetica font;
+  font-size: 18px;
+  text-allin: left;
+  color: white;
+}
+
+
+
+p1 {
+  font-family: Helvetica font;
+  font-size: 18px;
+  text-allin: left;
+  color: white;
+}
+
+
+img {
+  float: right;
+  position: relative; 
+  top: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
+
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: lightblue;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: ;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #FFFFFF;
+}
+
+.container: hover .overlay {
+  opacity: 1;
+  size:
+}
+
+.container {
+    width: 400px;
+    height: 120px;
+    margin: auto 100px;
+    float: right;
+    width: 20%;
+    height: px;
+}
+
+}
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color: #3CBC8D;
+  color: white;
+}
